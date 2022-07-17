@@ -1,0 +1,644 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Header</title>
+        
+        <link rel="shortcut icon" href="img.png">
+        <link rel="stylesheet" href="custom.css">
+
+        <style>
+
+
+@media only screen and (max-width: 650px) {
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+}
+.header{
+    height: 400px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+
+}
+nav{
+    flex: 1;
+    text-align: center;
+
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: table-row;
+    
+}
+p{
+    color: #555;
+    margin: 0;
+    font-size: 10px;
+    padding-top: 15px;
+    width: 150px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    padding: 0 0;
+    height: auto;
+    width: 100px;
+
+}
+
+.col-1{
+    flex-basis: 50%;
+    max-width: 246px;
+    padding: 0 0;
+
+}
+.col-2 h1{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.col-2 .btn{
+    display: inline-block;
+    background: #167c55;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 1px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.col-1 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.header .dot{
+    position: relative;
+    top: -150px;
+    height: 100px;
+    width: 100px;
+}
+
+}
+
+
+@media only screen and (max-width: 345px) {
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+}
+.header{
+    height: 300px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+
+}
+nav{
+    flex: 1;
+    text-align: center;
+
+}
+
+.logo img{
+    height: 20px;
+    width: 20px;
+
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    width: 200px;
+    
+}
+
+nav ul li{
+    
+    
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color: #555;
+    margin-left: 10px;
+    font-size: 5px;
+}
+p{
+    color: #555;
+    margin: 0;
+    font-size: 5px;
+    padding-top: 15px;
+    width: 120px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.col-2{
+    flex-basis: 50%;
+    padding: 0 0;
+    height: auto;
+    width: 100px;
+
+}
+
+.col-1{
+    flex-basis: 50%;
+    max-width: 246px;
+    padding: 0 0;
+
+}
+.col-2 h1{
+    font-size: 10px;
+    line-height: 15px;
+    margin: 0;
+}
+
+.col-2 .btn{
+    display: inline-block;
+    background: #167c55;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 1px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: 7px;
+    margin-top: 10px;
+}
+
+.col-1 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+
+.col-s3 .btn{
+    display: inline-block;
+    background: #167c55;
+    color: #fff;
+    padding: 5px 5px;
+    margin: 1px;
+    border-radius: 30px;
+    transition: background 0.2s;
+}
+
+.header .dot{
+    position: relative;
+    top: -150px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+}
+@media only screen and (max-width: 265px) {
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200px;
+}
+.header{
+    height: 200px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+
+}
+.logo img{
+    height: 20px;
+    width: 20px;
+
+}
+nav{
+    flex: 1;
+    text-align: center;
+    width: 100%;
+}
+
+.logo img{
+    height: 20px;
+    width: 20px;
+
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    
+}
+
+nav ul li{
+    
+    
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color: #555;
+    margin-right: 1px;
+    font-size: 5px;
+}
+p{
+    color: #555;
+    margin: 0;
+    font-size: 5px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.col-2{
+    flex-basis: 50%;
+    padding: 0 0;
+    height: auto;
+    width: 100%;
+
+}
+
+.col-1{
+    flex-basis: 50%;
+    max-width: 246px;
+    padding: 0 0;
+
+}
+.col-2 h1{
+    font-size: 10px;
+    line-height: 15px;
+    margin: 0;
+}
+
+.col-2 .btn{
+    display: inline-block;
+    background: #167c55;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 1px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: 7px;
+    margin-top: 10px;
+}
+
+.col-1 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+
+.col-s3 .btn{
+    display: inline-block;
+    background: #167c55;
+    color: #fff;
+    padding: 5px 5px;
+    margin: 1px;
+    border-radius: 30px;
+    transition: background 0.2s;
+}
+
+.header .dot{
+    position: relative;
+    top: -100px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+}
+
+
+
+
+
+
+        </style>
+
+</head>
+<body>
+    <div class="header">
+        
+    <div class="container">
+    <div class="navbar">
+<div class="logo">
+    <img src="img.png" width="125px">
+</div>
+<nav class="col-s3">
+<ul>
+    <li>
+        <a href="#">Books</a>
+        <a href="#">courses <i class="fa fa-shopping-cart" style="font-size:24px; color:red"></i></a>
+        <a href="#">Others</a>
+        <a href="#">Blog</a>
+        <a href="#" class="btn">Sing In</a>
+    </li>
+</ul>
+</nav>
+</div>
+
+<div class="row">
+
+    <div class="col-2">
+<h1>Learn With Fun On <br> <p1> Any Schedule </p1></h1>
+<p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor. <br> Lorem, ipsum dolor.Lorem, ipsum </p>
+<a href="#" class="btn"> Get Started</a>
+    </div>
+
+
+    <div class="col-1">
+        <img src="Illustration.png" alt="">
+    </div>
+</div>
+
+
+
+
+</div> 
+
+<img src="dot.png" alt="" class="dot">
+
+</div>
+<section class="content1">
+    <div class="container-2">
+        <div class="row">
+            <div class="box">
+                <div class="card"> 
+                    <img src="book.png" alt="">
+                    <div class="text"> <h4>500+ topic</h4>
+                <h6>Learn Anything</h6></div>
+            </div>
+            </div>
+                
+            <div class="box">
+               <div class="card"><img src="Students.png" alt="">
+                <div class="text"><h4>1800+ students</h4>
+                <h6>Learn Anything</h6></div>
+            </div> 
+            </div>
+            <div class="box">
+                <div class="card"><img src="Test.png" alt="">
+                <div class="text"><h4>9K+ Test Token</h4>
+                <h6>Learn Anything</h6></div>
+            </div>
+            </div>
+            <div class="box">
+                <div class="card"> <img src="Student.png" alt="">
+                    <div class="text"><h4>2000+ student</h4>
+                <h6>Learn Anything</h6></div>
+            </div>
+            </div>
+
+
+    </div>
+</section>
+
+
+<section class="content2">
+<div class="container-3">
+
+    <p class="p1" style="color: rgb(51, 45, 45);"><b> Online Cources </b></p>
+            
+    <div class="row">
+        <div class="box-1">
+            <div class="card-1">
+                <img src="Morder pyschology.png" alt="">
+                <div class="text">
+                    <h2>Modern Pyschology</h2>
+                    <h6>Designation</h6>
+                    <div class="btn">Buy Course</div>
+                    <div class="foot">
+                        <div class="row">
+                            <div class="f">
+                                <img src="calendar.png" alt=""><h6>Start 20 April, 2022</h6>
+                            </div>
+                            <div class="f1"><img src="people.png" alt=""><div class="ft"><h6>60 Seat</h6></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-1">
+            <div class="card-1">
+                <img src="Morder pychons.png" alt="">
+                <div class="text">
+                    <h2>Modern Pyschology</h2>
+                    <h6>Designation</h6>
+                    <div class="btn">Buy Course</div>
+                    <div class="foot">
+                        <div class="row">
+                            <div class="f">
+                                <img src="calendar.png" alt=""><h6>Start 20 April, 2022</h6>
+                            </div>
+                            <div class="f1"><img src="people.png" alt=""><div class="ft"><h6>60 Seat</h6></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-1">
+            <div class="card-1">
+                <img src="Morder psyc.png" alt="">
+                <div class="text">
+                    <h2>Modern Pyschology</h2>
+                    <h6>Designation</h6>
+                    <div class="btn">Buy Course</div>
+                    <div class="foot">
+                        <div class="row">
+                            <div class="f">
+                                <img src="calendar.png" alt=""><h6>Start 20 April, 2022</h6>
+                            </div>
+                            <div class="f1"><img src="people.png" alt=""><div class="ft"><h6>60 Seat</h6></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="discount">
+    <div class="container-4">
+        <div class="disc-text">
+        <h1>30% Member Discount</h1>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, deleniti!</h6>
+        <form class="example" action="https://www.google.com/">
+            <input type="text" placeholder="Enter your E-mail.." name="search">
+            <button type="submit"><i class="fa fa-search"></i>Subscribe</button>
+          </form>
+          </div>
+    </div> 
+</section>
+
+<section class="news">
+<div class="container-5">
+        <div class="disc-text">
+                <h1>Latest News</h1>
+        </div>
+        <div class="row">
+            
+                
+                <div class="box-n">
+                    <div class="card-n">
+                        <img src="4.jpg" alt="">
+                        <div class="tex-n">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="card-n1">
+                        <img src="5.jpg" alt="">
+                        <div class="tex-n">
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tempora animi</h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+            
+           
+
+</div>
+</section>
+<section>
+<div class="container-6">
+    <div class="review">
+        <div class="box-nn">
+            <img src="Man.png" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime amet repudiandae optio reiciendis, dolore est nemo suscipit ea quos nisi voluptas exercitationem maiores quas ducimus obcaecati totam voluptatem ullam officiis.</p>
+            <a href="#"><b> - John Cornor</b></a>
+        </div>
+    </div>
+    
+</div>
+</section>
+<section>
+    <div class="container-7">
+        
+        <div class="row">
+            <div class="colz">
+                <img src="1.png" alt=""> <br>
+                    <h3>Expert Trainer</h3>
+                    <p>Lorem ipsum dolor sit amet 54yw<br> consectetur adipisicing elit. <br>consectetur adipisicing</p>
+            </div>
+            <div class="colz">
+                <img src="2.png" alt=""> <br>
+                <h3>24/7 Customer Service</h3>
+                <p>Lorem ipsum dolor sit amet w54y<br> consectetur adipisicing elit. <br>consectetur adipisicing </p>
+            </div>
+            <div class="colz">
+                <img src="3.png" alt=""> <br>
+                <h3>Money Back Guarantee</h3>
+                <p>Lorem ipsum dolor sit amet w35y<br> consectetur adipisicing elit. <br>consectetur adipisicing</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<footer>
+<div class="footer">
+    <br>
+<div class="row">
+    <div class="cl1">
+        <div><img src="img.png" alt=""> </div>
+        <div class="para"> <p>Millions Of people of all ages and from around the world are improving their lives with us</p></div>
+        
+    </div>
+    <div class="cl2">
+        <h3>Courses</h3> <br>
+<p>Graphic design <br></p><p> Web Design <br></p><p>Business<br> </p><p>Marketing <br> </p><p>Engeneerings</p>
+    </div>
+    <div class="cl3">
+        <h3>Terms</h3> <br>
+<p>Graphic Design<br></p><p> Web Design <br></p><p>Business<br></p><p> Marketing <br></p><p> Engeneerings</p>
+    </div>
+    <div class="cl4">
+        <h3>Contact</h3> <br>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam distinctio esse, nesciunt?</p>
+
+    </div>
+</div>
+<br> <br>
+<hr>
+<div class="footer2">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <br>
+<div class="row">
+    
+<img src="apple.jpg" alt="">
+
+<img src="google.jpg" alt="">
+    
+</div>
+</div>
+</div>
+<br> <br>
+</footer>
+
+</body>
+</html>
+
+
+
+<!--
+     </div>
+    <div class="colll">
+-->
